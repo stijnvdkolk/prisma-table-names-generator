@@ -4,13 +4,15 @@
   "repository": {
     "url": "https://github.com/stijnvdkolk/prisma-table-names-generator"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/generator.js",
   "files": [
     "dist"
   ],
   "license": "MIT",
-  "bin": "dist/bin.js",
+  "bin": {
+    "prisma-table-names": "dist/bin.js"
+  },
   "scripts": {
     "start": "node dist/bin.js",
     "dev": "tsc --watch",

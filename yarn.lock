@@ -4259,7 +4259,7 @@ __metadata:
     vitest: "npm:^0.34.4"
     zod: "npm:^3.22.2"
   bin:
-    prisma-table-names-generator: dist/bin.js
+    prisma-table-names: dist/bin.js
   languageName: unknown
   linkType: soft
 
